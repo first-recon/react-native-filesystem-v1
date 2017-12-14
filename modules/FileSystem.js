@@ -6,6 +6,7 @@ const RNFileSystem = ReactNative.NativeModules.RNFileSystem
 export default class FileSystem {
   static storage = {
     backedUp: 'BACKED_UP',
+    extBackedUp: 'EXT_BACKED_UP',
     important: 'IMPORTANT',
     auxiliary: 'AUXILIARY',
     temporary: 'TEMPORARY'
